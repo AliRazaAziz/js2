@@ -74,21 +74,40 @@
     //}
     
 //Task 14
-    var search_str = prompt("Search")
-    var str = ["cake","apple pie","cookie","chips","patties"]
+    //var search_str = prompt("Search")
+    //var str = ["cake","apple pie","cookie","chips","patties"]
     
-    function case_insensitive_search(str, search_str)
-    {
-    var result= str.search(new RegExp(search_str, "i"));
+    //function case_insensitive_search(str, search_str)
+    //{
+    //var result= str.search(new RegExp(search_str, "i"));
 
-    if (result>0)
-    return 'Matched';
-    else
-    return 'Not Matched';  
-    }
+    //if (result>0)
+    //return 'Matched';
+    //else
+    //return 'Not Matched';  
+   //}
 
-    console.log(case_insensitive_search(str, search_str));
+    //console.log(case_insensitive_search(str, search_str));
 //Task 15
+    
+    //function CheckPassword(inputtxt,passw) 
+    //{ 
+    //var inputtxt = prompt("Enter Password")    
+    //var passw=  /^[A-Za-z]\w{0-9}$/;
+    //if(inputtxt.value.match(passw)) 
+    //{ 
+    //alert('Correct, try another...')
+    //return true;
+    //}
+    //else
+    //{ 
+    //alert('Wrong...!')
+    //return false;
+    //}
+    //}
+    
+    //CheckPassword();
+
 //Task 16
     //var university = "University of Karachi";
     //var arr = university.split("")
@@ -99,8 +118,13 @@
     //document.write("User Input : Pakistan" + " <br>" +
     //                "Last charater of input :" + " " + n)
 //Task 18
-
-
+    //function gfg() { 
+    //        var r = "the quick brown fox jumps over the lazy dog "; 
+    //         
+    //          alert(r.match(/the/g)).length; 
+    // 
+    //    } 
+    //gfg()    
 //Chapter 26-30
 //Task 1
     //var inp = prompt("Enter a positive integer");
